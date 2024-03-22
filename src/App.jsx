@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <div>
+      <div className="tv-image-slider tv-moduleid-9969155"></div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
