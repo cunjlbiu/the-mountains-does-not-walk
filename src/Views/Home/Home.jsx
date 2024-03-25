@@ -29,8 +29,12 @@ const Home = () => {
             Sed tortor nisi, ullamcorper id euismod in, tincidunt vitae nisl. Vivamus mauris mi, ultricies id dui ut, dictum consequat ante. Nullam eget felis quis dolor ornare eleifend non eu neque. Vestibulum dictum, risus vitae pellentesque dictum, turpis leo pellentesque nunc, eget interdum velit nunc ut nisl. Nullam turpis justo, bibendum id viverra varius, dictum vitae nisi. Nulla nec sollicitudin nisi. Sed ac sagittis tortor. Praesent dolor urna, interdum vel scelerisque dapibus, scelerisque nec dui. Donec nec ligula nulla. Phasellus iaculis placerat scelerisque. Morbi pellentesque dictum aliquet. Ut mattis pharetra metus. Nam eu posuere elit, nec blandit velit. Curabitur condimentum risus sit amet mi interdum, nec dapibus elit pulvinar.
 
 Mauris tincidunt dignissim orci in luctus. Morbi eu facilisis nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum eu risus tincidunt fermentum in eget lacus. Praesent finibus eget velit nec faucibus. Fusce id justo enim. Mauris nec neque at diam blandit dapibus. Proin sit amet iaculis metus. Maecenas finibus venenatis justo, et finibus elit ullamcorper vitae. Pellentesque vehicula tortor sed ipsum sollicitudin, id hendrerit sapien convallis. 
+            <br />
             </div>
+            <br />
             </div>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3d6086f86246f62b4ffbfdeadf0b5799f8ff856741712c110ea767c14d699935&amp;source=constructor" width="100%" height="485" frameborder="0"></iframe>
+            
 
         </div>
     );

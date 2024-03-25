@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter basename='/the-mountains-does-not-walk'>
+    <BrowserRouter>
       <Routes>
           <Route path = '/sex' element={
             <div>
