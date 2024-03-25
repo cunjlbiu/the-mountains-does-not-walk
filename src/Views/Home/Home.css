@@ -2,6 +2,8 @@
     width: 100dvw;
     min-height: 100dvh;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
     
 
     .appear{
@@ -26,6 +28,7 @@
     }
 
     .sliderContainer{
+        justify-self: end;
         max-width: 90%;
         margin: auto;
         max-height: 500px;
