@@ -1,0 +1,72 @@
+.homeLayout{
+    width: 100dvw;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    
+
+    .appear{
+        animation: appear 0.3s linear 0.0s 1 normal forwards;
+        opacity: 0;
+    
+    }
+    .scale{
+        animation: scale 0.3s linear 0.0s 1 normal forwards;
+        scale: 0.5;
+    }
+    .appear.scale{
+        animation: scale 0.3s linear 0.0s 1 normal forwards, appear 0.3s linear 0.0s 1 normal forwards ;
+    }
+    
+    .slideL{
+        animation: slideL 0.9s ease 0s 1 normal forwards;
+    }
+    
+    .slideR{
+        animation: slideR 0.9s ease 0s 1 normal forwards;
+    }
+
+
+
+}
+
+
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
+}
+
+@keyframes scale {
+    from{
+        scale: 0.5;
+    }
+    to {
+        scale: 1;
+    }
+    
+    
+}
+
+@keyframes slideL {
+    0%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+@keyframes slideR {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
