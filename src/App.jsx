@@ -9,34 +9,35 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/the-mountains-does-not-walk'>
       <Routes>
-        <Route path = '/the-mountains-does-not-walk' element={
-          <div>
+          <Route path = '/' element={
             <div>
-            {/* <div className="tv-image-slider tv-moduleid-9969155"></div> */}
-              <a href="https://vitejs.dev" target="_blank">
-                <img src={viteLogo} className="logo" alt="Vite logo" />
-              </a>
-              <a href="https://react.dev" target="_blank">
-                <img src={reactLogo} className="logo react" alt="React logo" />
-              </a>
-            </div>
-            <h1>Vite + React</h1>
-            <div className="card">
-              <button onClick={() => setCount((count) => count + 1)}>
-                count is {count}
-              </button>
-              <p>
-                Edit <code>src/App.jsx</code> and save to test HM
+              <div>
+              {/* <div className="tv-image-slider tv-moduleid-9969155"></div> */}
+                <a href="https://vitejs.dev" target="_blank">
+                  <img src={viteLogo} className="logo" alt="Vite logo" />
+                </a>
+                <a href="https://react.dev" target="_blank">
+                  <img src={reactLogo} className="logo react" alt="React logo" />
+                </a>
+              </div>
+              <h1>Vite + React</h1>
+              <div className="card">
+                <button onClick={() => setCount((count) => count + 1)}>
+                  count is {count}
+                </button>
+                <p>
+                  Edit <code>src/App.jsx</code> and save to test HM
+                </p>
+              </div>
+              <p className="read-the-docs">
+                Click on the Vite and React logos to learn more
               </p>
-            </div>
-            <p className="read-the-docs">
-              Click on the Vite and React logos to learn more
-            </p>
-          </div>}>
-        </Route>
-        <Route path = "/the-mountains-does-not-walk/sex" element={<Home/> }/>
+            </div>}>
+          </Route>
+          <Route path = "/sex" element={<Home/>}/>
+        
       </Routes>
     </BrowserRouter>
   )
