@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter basename='/the-mountains-does-not-walk'>
       <Routes>
-          <Route path = '*' element={
+          <Route path = '/sex' element={
             <div>
               <div className="tv-image-slider tv-moduleid-9969222"></div>
               <div>
@@ -38,7 +38,7 @@ function App() {
               </p>
             </div>}>
           </Route>
-          <Route path = "/tmdnw" element={<Home/>}/>
+          <Route path = "/*" element={<Home/>}/>
         
       </Routes>
     </BrowserRouter>
