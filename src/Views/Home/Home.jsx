@@ -8,6 +8,7 @@ import rtL from '../../assets/rtL.png'
 import hta from '../../assets/hta.png'
 import rtR from '../../assets/rtR.png'
 import canon from '../../assets/canon.png'
+import {Link} from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -34,7 +35,7 @@ Mauris tincidunt dignissim orci in luctus. Morbi eu facilisis nibh. Lorem ipsum 
             <br />
             </div>
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3d6086f86246f62b4ffbfdeadf0b5799f8ff856741712c110ea767c14d699935&amp;source=constructor" width="100%" height="485" frameborder="0"></iframe>
-            
+            <Link to='/sex'>link</Link>
 
         </div>
     );
