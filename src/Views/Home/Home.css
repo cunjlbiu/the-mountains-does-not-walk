@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .homeLayout{
     width: 100dvw;
     min-height: 100dvh;
@@ -37,6 +39,15 @@
         height: 300px;
     }
     
+    .aboutTitle{
+        margin: auto;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 44px;
+        color: #ffbd30;
+    }
+
     .aboutText{
         margin: auto;
         max-width: 700px;
