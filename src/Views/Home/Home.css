@@ -4,6 +4,7 @@
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: end;
     
 
     .appear{
@@ -29,9 +30,10 @@
 
     .sliderContainer{
         justify-self: end;
-        max-width: 90%;
+        width: 90%;
+        max-width: 1700px;
         margin: auto;
-        max-height: 500px;
+        height: 300px;
     }
 }
 
