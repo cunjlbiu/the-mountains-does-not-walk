@@ -20,7 +20,9 @@ const Home = () => {
             <img className='appear scale' src={canon} alt="" style={{position:'absolute', right:'520px', top:'-60px', animationDelay:'1.2s'}}/>
             <img className='appear scale' src={compass} alt="" style={{position:'absolute', left:'370px', top:'290px', animationDelay:'0.8s'}}/>
             <img className='appear scale' src={photos} alt="" style={{position:'absolute', left:'400px', top:'-55px', animationDelay:'1s'}}/>
-            <div className="tv-image-slider tv-moduleid-9969222"></div>
+            <div>
+                <div className="tv-image-slider tv-moduleid-9969222"></div>
+            </div>
 
         </div>
     );

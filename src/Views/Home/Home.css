@@ -25,8 +25,11 @@
         animation: slideR 0.9s ease 0s 1 normal forwards;
     }
 
-
-
+    .sliderContainer{
+        max-width: 90%;
+        margin: auto;
+        max-height: 500px;
+    }
 }
 
 
