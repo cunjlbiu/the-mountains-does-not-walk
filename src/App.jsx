@@ -11,8 +11,9 @@ function App() {
   return (
     <BrowserRouter basename='/the-mountains-does-not-walk'>
       <Routes>
-          <Route path = '/' element={
+          <Route path = '*' element={
             <div>
+              <div className="tv-image-slider tv-moduleid-9969222"></div>
               <div>
               {/* <div className="tv-image-slider tv-moduleid-9969155"></div> */}
                 <a href="https://vitejs.dev" target="_blank">
@@ -27,7 +28,7 @@ function App() {
                 <button onClick={() => setCount((count) => count + 1)}>
                   count is {count}
                 </button>
-                <Link to='/sex'>link</Link>
+                <Link to='/tmdnw'>link</Link>
                 <p>
                   Edit <code>src/App.jsx</code> and save to test HM
                 </p>
@@ -37,7 +38,7 @@ function App() {
               </p>
             </div>}>
           </Route>
-          <Route path = "/sex" element={<Home/>}/>
+          <Route path = "/tmdnw" element={<Home/>}/>
         
       </Routes>
     </BrowserRouter>
