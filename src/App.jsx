@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
 import { Home } from './Views';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -27,6 +27,7 @@ function App() {
                 <button onClick={() => setCount((count) => count + 1)}>
                   count is {count}
                 </button>
+                <Link to='/sex'>link</Link>
                 <p>
                   Edit <code>src/App.jsx</code> and save to test HM
                 </p>
