@@ -81,6 +81,7 @@
         .offerCard{
             display: block;
             text-align: center;
+            font-size: 20px;
             padding: 20px;
             margin: 20px;
             width: 200px;
@@ -141,7 +142,7 @@
 @keyframes slideUp {
     0%{
         visibility: visible;
-        bottom: -1500px;
+        bottom: -500px;
     }
     100%{
         visibility: visible;

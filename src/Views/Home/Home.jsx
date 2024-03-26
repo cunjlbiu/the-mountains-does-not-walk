@@ -7,7 +7,12 @@ import hta from '../../assets/hta.png'
 import rtR from '../../assets/rtR.png'
 import canon from '../../assets/canon.png'
 import {Link} from 'react-router-dom'
-import { HiOutlineTicket } from "react-icons/hi2";
+import { HiOutlineTicket, HiOutlineBanknotes } from "react-icons/hi2";
+import { MdOutlineLocalHotel } from "react-icons/md";
+import { TbMoodBoy } from "react-icons/tb"
+import { SlPresent } from "react-icons/sl";
+import { RiVipCrown2Line } from "react-icons/ri";
+import { BsPassport } from "react-icons/bs";
 import './Home.css'
 
 const Home = () => {
@@ -43,27 +48,27 @@ const Home = () => {
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3d6086f86246f62b4ffbfdeadf0b5799f8ff856741712c110ea767c14d699935&amp;source=constructor" width="100%" height="485" frameborder="0"></iframe>
             <div className='offerBox'>
                 <div className='offerCard'>
-                    <HiOutlineTicket className='icon'/>
+                    <MdOutlineLocalHotel className='icon'/>
                     <div>Бронирование пакетных туров, отелей</div>
                 </div>
                 <div className='offerCard'>
-                    <HiOutlineTicket className='icon'/>
+                    <TbMoodBoy className='icon'/>
                     <div>Детские лагеря, языковые школы</div>
                 </div>
                 <div className='offerCard'>
-                    <HiOutlineTicket className='icon'/>
+                    <HiOutlineBanknotes className='icon'/>
                     <div>Оформление туров в кредит и рассрочку</div>
                 </div>
                 <div className='offerCard'>
-                    <HiOutlineTicket className='icon'/>
+                    <RiVipCrown2Line className='icon'/>
                     <div>Организация индивидуальных и ВИП туров</div>
                 </div>
                 <div className='offerCard'>
-                    <HiOutlineTicket className='icon'/>
+                    <BsPassport className='icon'/>
                     <div>Оформление виз</div>
                 </div>
                 <div className='offerCard'>
-                    <HiOutlineTicket className='icon'/>
+                    <SlPresent className='icon'/>
                     <div>Подарочные сертификаты</div>
                 </div>
                 <div className='offerCard'>
