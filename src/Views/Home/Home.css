@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .homeLayout{
-    width: 100dvw;
+    width: 100%;
     min-height: 100dvh;
     overflow-x: hidden;
     display: flex;
@@ -30,6 +30,9 @@
     .slideR{
         animation: slideR 0.9s ease 0s 1 normal forwards;
     }
+    .slideUp{
+        animation: slideUp 0.9s ease 0s 1 normal forwards;
+    }
 
     .sliderContainer{
         justify-self: end;
@@ -38,7 +41,16 @@
         margin: auto;
         height: 300px;
     }
-    
+    .aboutContainer{
+        display: flex;
+        justify-content: center;
+        background-image: url('../../assets/abtus1.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+        visibility: hidden;
+    }
+
     .aboutTitle{
         margin: auto;
         font-family: "Pacifico", cursive;
@@ -46,13 +58,29 @@
         font-style: normal;
         font-size: 44px;
         color: #ffbd30;
-        line-height: 3;
+        line-height: 2;
     }
 
     .aboutText{
         margin: auto;
         max-width: 700px;
         font-size: 22px;
+        padding: 0px 20px 20px 30px;
+        margin: 20px;
+        background-color: #f8f8f8e5;
+        border-radius: 30px;
+    }
+    .offerCard{
+        display: block;
+        text-align: center;
+    }
+    .offerBox{
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+        .icon{
+            font-size: 60px;
+        }
     }
 }
 
@@ -96,4 +124,15 @@
         transform: translateX(0px);
     }
     
+}
+
+@keyframes slideUp {
+    0%{
+        visibility: visible;
+        bottom: -1500px;
+    }
+    100%{
+        visibility: visible;
+        bottom: 0px;
+    }
 }

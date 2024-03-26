@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState, Suspense, lazy } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
-import { Home } from './Views';
+// import { Home } from './Views';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+
+const Home = lazy(()=> import('./Views/Home/Home'))
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,7 +40,7 @@ function App() {
               </p>
             </div>}>
           </Route>
-          <Route path = "/*" element={<Home/>}/>
+          <Route path = "/*" element={<Suspense fallback={<div></div>}><Home/></Suspense> }/>
         
       </Routes>
     </BrowserRouter>
