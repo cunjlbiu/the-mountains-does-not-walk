@@ -21,6 +21,13 @@ import { useState } from 'react'
 import { Footer, Header } from '../../components'
 
 const Home = () => {
+
+
+    function getImageUrl(name) {
+        return new URL(name, import.meta.url).href
+      }
+
+
     const [activeSlide, setActiveSlide] = useState(null)
     return (
         <div className='homeLayout'>
@@ -126,7 +133,7 @@ const Home = () => {
             >
 
                 <div className={'partnerSlide' + (activeSlide == 0?' active':'')}>
-                    <img className='img' src={"/src/assets/postmarks/h1-postmark-1.jpg"} alt="" />
+                    <img className='img' src={getImageUrl("../../assets/postmarks/h1-postmark-1.jpg")} alt="" />
                     <div className='text'>
                         <h4>Country</h4>
                         <p style={{maxWidth:'140px', fontSize:'13px', margin:'5px auto'}}>
@@ -136,7 +143,7 @@ const Home = () => {
                 </div>
                  
                 <div  className={'partnerSlide' + (activeSlide == 1?' active':'')}>
-                    <img className='img' src={"/src/assets/postmarks/h1-postmark-2.jpg"} alt="" />
+                    <img className='img' src={getImageUrl("../../assets/postmarks/h1-postmark-2.jpg")} alt="" />
                     <div className='text'>
                         <h4>Country</h4>
                         <p style={{maxWidth:'140px', fontSize:'13px', margin:'5px auto'}}>
@@ -146,7 +153,7 @@ const Home = () => {
                 </div>
  
                 <div  className={'partnerSlide' + (activeSlide == 2?' active':'')}>
-                    <img className='img' src={"/src/assets/postmarks/h1-postmark-3.jpg"} alt="" />
+                    <img className='img' src={getImageUrl("../../assets/postmarks/h1-postmark-3.jpg")} alt="" />
                     <div className='text'>
                         <h4>Country</h4>
                         <p style={{maxWidth:'140px', fontSize:'13px', margin:'5px auto'}}>
@@ -156,7 +163,7 @@ const Home = () => {
                 </div>
  
                 <div  className={'partnerSlide' + (activeSlide == 3?' active':'')}>
-                    <img className='img' src={"/src/assets/postmarks/h1-postmark-4.jpg"} alt="" />
+                    <img className='img' src={getImageUrl("../../assets/postmarks/h1-postmark-4.jpg")} alt="" />
                     <div className='text'>
                         <h4>Country</h4>
                         <p style={{maxWidth:'140px', fontSize:'13px', margin:'5px auto'}}>
@@ -166,7 +173,7 @@ const Home = () => {
                 </div>
 
                 <div  className={'partnerSlide' + (activeSlide == 4?' active':'')}>
-                    <img className='img' src={"/src/assets/postmarks/h1-postmark-5.jpg"} alt="" />
+                    <img className='img' src={getImageUrl("../../assets/postmarks/h1-postmark-5.jpg")} alt="" />
                     <div className='text'>
                         <h4>Country</h4>
                         <p style={{maxWidth:'140px', fontSize:'13px', margin:'5px auto'}}>
@@ -176,7 +183,7 @@ const Home = () => {
                 </div>
 
                 <div  className={'partnerSlide' + (activeSlide == 5?' active':'')}>
-                    <img className='img' src={"/src/assets/postmarks/h1-postmark-6.jpg"} alt="" />
+                    <img className='img' src={getImageUrl("../../assets/postmarks/h1-postmark-6.jpg")} alt="" />
                     <div className='text'>
                         <h4>Country</h4>
                         <p style={{maxWidth:'140px', fontSize:'13px', margin:'5px auto'}}>
@@ -186,7 +193,7 @@ const Home = () => {
                 </div>
 
                 <div  className={'partnerSlide' + (activeSlide == 6?' active':'')}>
-                    <img className='img' src={"/src/assets/postmarks/h1-postmark-7.jpg"} alt="" />
+                    <img className='img' src={getImageUrl("../../assets/postmarks/h1-postmark-7.jpg")} alt="" />
                     <div className='text'>
                         <h4>Country</h4>
                         <p style={{maxWidth:'140px', fontSize:'13px', margin:'5px auto'}}>
@@ -196,7 +203,7 @@ const Home = () => {
                 </div>
 
                 <div  className={'partnerSlide' + (activeSlide == 7?' active':'')}>
-                    <img className='img' src={"/src/assets/postmarks/h1-postmark-8.jpg"} alt="" />
+                    <img className='img' src={getImageUrl("../../assets/postmarks/h1-postmark-8.jpg")} alt="" />
                     <div className='text'>
                         <h4>Country</h4>
                         <p style={{maxWidth:'140px', fontSize:'13px', margin:'5px auto'}}>
